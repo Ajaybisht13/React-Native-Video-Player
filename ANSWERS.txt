@@ -1,5 +1,5 @@
 1. What's your favourite state management library for react and why?
-Ans. Redux, because its
+Ans. Redux, because it's
      1. State persistence
      2. Ease of testing
      3. Debugging is easy in Redux
