@@ -1,1 +1,17 @@
+1. What's your favourite state management library for react and why?
+Ans. Redux, because its
+     1. State persistence
+     2. Ease of testing
+     3. Debugging is easy in Redux
 
+2. Write some react native best practices.
+Ans. 1. Code should be DRY,
+     2. Code Reusability,
+     3. Use capitals for component names,
+     4. Use Class Component 
+     
+3. Which coding style you prefer wet or dry and why?
+Ans. Code should be DRY. It makes code reuse and testing easier.
+
+4. What do you prefer expo or vanilla react native and why?
+Ans. It all depends on the requirements and functionality you want to implement in your app.  Expo provides more robust and developer friendly development workflow at the cost of      some flexibility. 
