@@ -49,17 +49,14 @@ class App extends React.Component {
           </View>
       </View>
       <View style={{marginBottom:'5%', elevation:20, padding:"2%"}}>
-                    <Video  source={{uri: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8'}} isMuted={false} useNativeControls  resizeMode="cover"  style={{width:'100%',height:400}}/>
-                    <View style={{justifyContent:"flex-start",padding:'2%', position:"relative", display:"flex", flexDirection:"row", alignItems:"center",display:"flex", width:"100%"}}>
-                  
+          <Video  source={{uri: 'https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8'}} isMuted={false} useNativeControls  resizeMode="cover"  style={{width:'100%',height:400}}/>
+              <View style={{justifyContent:"flex-start",padding:'2%', position:"relative", display:"flex", flexDirection:"row", alignItems:"center",display:"flex", width:"100%"}}>
                   <View style={{justifyContent:"center",display:"flex", flexDirection:"row", alignItems:"center"}}>
-                   
-                      <View>
+                     <View>
                       <TouchableOpacity>
                         <Icons name="heart" color='black' size={25}/>
                       </TouchableOpacity>
-                      
-                      </View>
+                     </View>
                   </View>
                   
                   <View style={{justifyContent:"center",display:"flex", marginLeft:20, flexDirection:"row", alignItems:"center"}}>
@@ -72,17 +69,15 @@ class App extends React.Component {
                   </View>
               </View>
               <View style={{marginBottom:'5%', elevation:20, padding:"2%"}}>
-                    <Video  source={{uri: 'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8'}} isMuted={false} useNativeControls  resizeMode="cover"  style={{width:'100%',height:400}}/>
+                 <Video  source={{uri: 'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8'}} isMuted={false} useNativeControls  resizeMode="cover"  style={{width:'100%',height:400}}/>
                     <View style={{justifyContent:"flex-start",padding:'2%', position:"relative", display:"flex", flexDirection:"row", alignItems:"center",display:"flex", width:"100%"}}>
                   
                   <View style={{justifyContent:"center",display:"flex", flexDirection:"row", alignItems:"center"}}>
-                   
-                      <View>
+                    <View>
                       <TouchableOpacity>
                         <Icons name="heart" color='black' size={25}/>
                       </TouchableOpacity>
-                      
-                      </View>
+                    </View>
                   </View>
                   
                   <View style={{justifyContent:"center",display:"flex", marginLeft:20, flexDirection:"row", alignItems:"center"}}>
@@ -94,8 +89,8 @@ class App extends React.Component {
                     </View>
                   </View>
               </View>
-      </ScrollView>
-      </View>
+            </ScrollView>
+          </View>
       </View>
     );
   }
